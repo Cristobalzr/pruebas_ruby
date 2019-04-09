@@ -1,10 +1,8 @@
-
-i = 0
+n = ARGV[0].to_i * 2
 suma = 0
-while i < ARGV[0].to_f
+(n+1).times do |i|
   if i.even?
-    i += 1
     suma += i
-    puts suma
   end
 end
+puts suma
