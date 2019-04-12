@@ -1,7 +1,7 @@
 def abc(n)
   letras = "a"
   todas = ""
-  n.times do |i|
+  n.times do
     todas += letras
     letras = letras.next
   end
