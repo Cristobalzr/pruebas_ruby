@@ -23,5 +23,4 @@ else
   else
     puts fourth
   end
-
 end
