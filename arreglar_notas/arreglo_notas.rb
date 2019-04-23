@@ -8,6 +8,6 @@ def promedio(notas)
       notas_arregladas.push nota
     end
   end
-puts (notas_arregladas.sum / notas_arregladas.count)
+(notas_arregladas.sum / notas_arregladas.count)
 end
 promedio(notas)

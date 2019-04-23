@@ -15,4 +15,4 @@ final = []
     final.push (datos[i].to_i + ARGV[0].to_i)
   end
 
-File.write("resultado.data", final.join("\n"))
+File.write("procesos_filtrados.data", final.join("\n"))
