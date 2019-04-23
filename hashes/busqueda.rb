@@ -13,13 +13,11 @@ Noviembre: 91000,
 Diciembre: 21000
 }
 
-def filter(ventas,dato)
-  match = ventas.invert[dato]
-  if match
-    puts match
-  else
+ARGV.each do |valor|
+  mes = ventas.invert[valor.to_i]
+  if mes.nil?
     puts "no encontrado"
+  else
+    puts mes
   end
 end
-
-filter(ventas,ARGV[0].to_i)
