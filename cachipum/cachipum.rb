@@ -18,9 +18,7 @@ end
 
 index("uno")
 options = [1, 2, 3, 4]
-
 player1 = gets.to_i
-
 until options.include? player1
   puts "¡Argumento invalido, intentalo de nuevo!"
   index("dos")
@@ -32,7 +30,6 @@ end
 
 index("dos")
 player2 = gets.to_i
-
 until options.include? player2
   puts "¡Argumento invalido, intentalo de nuevo!"
   index("dos")
